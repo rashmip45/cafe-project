@@ -1,0 +1,21 @@
+# Whatever we write in this file will not be pushed to git
+# adding virtual env folder prevent pushing it 
+virt/
+
+# bytecode files generated during runtime 
+
+__pycache__/ 
+*.pyc
+*.pyo 
+
+#django-specific files to be kept private
+
+*.log
+db.sqlite3
+media/
+
+# vs code
+.vscode/
+
+# Environment variables
+.envgi

@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    header {
+
+        [data-bs-theme="brown"] {
+            --bs-primary: #ec6d12;
+        }
+
+        .logo-shoe {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    main {
+        margin-top: 50px;
+        margin-bottom: 75px;
+
+        .register-pg{
+            margin-left: 35%;
+            margin-top: 70px;
+            height: 400px;
+            width: 600px;
+            background-color: rgb(218, 136, 89);
+            overflow: hidden;
+            .reg-form{
+                padding: 10px 50px;
+                font-weight: 500;
+            }
+        }
+
+        div.register-pg:hover {
+            background-color: rgb(148, 58, 6);
+            box-shadow: 1px 2px 4px 1px rgb(102, 88, 74);
+            transform: scale(1.05);
+            transition-duration: 1s;
+        }
+
+        .login-pg{
+            margin-left: 35%;
+            margin-top: 70px;
+            height: 200px;
+            width: 350px;
+            background-color: rgb(218, 136, 89);
+            overflow: hidden;
+            .login-form{
+                padding: 10px 45px;
+                font-weight: 500;
+            }
+        }
+
+        div.login-pg:hover {
+            background-color: rgb(148, 58, 6);
+            box-shadow: 1px 2px 4px 1px rgb(102, 88, 74);
+            transform: scale(1.05);
+            transition-duration: 1s;
+        }
+
+        .add-prod{
+            margin-left: 35%;
+            margin-top: 70px;
+            height: 550px;
+            width: 450px;
+            padding-bottom: 50px;
+            background-color: rgb(218, 136, 89);
+            overflow: hidden;
+            .form{
+                padding: 10px 45px;
+                font-weight: 500;
+            }
+        }
+
+        div.add-prod:hover {
+            background-color: rgb(148, 58, 6);
+            box-shadow: 1px 2px 4px 1px rgb(102, 88, 74);
+            transform: scale(1.05);
+            transition-duration: 1s;
+        }
+
+        .container-fluid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 70px;
+            padding-bottom: 50px;
+
+            div.card {
+                /* border: 1px solid; */
+                box-shadow: 1px 2px 4px 1px rgb(0, 0, 0);
+                border-radius: 6px;
+                background-color: rgb(218, 136, 89);
+                height: 450px;
+                width: 300px;
+                margin-top: 20px;
+                margin: 10px;
+                overflow: hidden;
+                transition-duration: 2s;
+
+                div.card-img {
+                    height: 50%;
+                    width: 100%;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                div.card-text {
+                    text-align: center;
+                    /* background-color: aqua; */
+                    height: 50%;
+
+                    h3 {
+
+                        margin-top: 5px;
+                        height: 30px;
+                        font-size: large;
+                        font-weight: 1000;
+                    }
+
+                    h5 {
+                        height: 20px;
+                        font-size: medium;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        height: 40px;
+                        padding: 4px;
+                        color: rgb(99, 99, 99);
+                        /* overflow: hidden; */
+                        /* text-overflow: ellipsis; */
+                        /* text-wrap: nowrap; */
+                    }
+
+                    a {
+                        height: 30px;
+                        width: 100px;
+                        padding: 2px;
+                        border-radius: 8px;
+                        border: 0px;
+                        /* cursor: cell;*/
+                        /* changes the shape of mouse pointer cursor */
+
+                        color: white;
+                        font-size: 14px;
+                        font-weight: 600;
+                        background-color: rgb(110, 36, 7);
+                    }
+
+                    a:hover {
+                        box-shadow: 1px 1px 1px 1px lightblue;
+                    }
+
+                }
+
+                .edit-delete {
+                    align-content: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+
+                    .bi-pencil-square {
+                        padding-left: 15px;
+                        font-size: xx-large;
+                    }
+
+                    .bi-trash-fill {
+                        font-size: xx-large;
+                    }
+                }
+            }
+
+            div.card:hover {
+                background-color: rgb(255, 255, 255);
+                box-shadow: 1px 2px 4px 1px rgb(201, 201, 201);
+                transform: scale(1.05);
+                transition-duration: 1s;
+            }
+        }
+
+        .about-pg {
+
+            padding-bottom: 50px;
+
+            h3 {
+                font-size: large;
+                font-weight: 1000;
+            }
+
+            .about-us {
+                box-shadow: 1px 2px 4px 1px rgb(0, 0, 0);
+                border-radius: 6px;
+                background-color: rgb(245, 150, 87);
+                height: 100px;
+                width: 95%;
+                margin-top: 20px;
+                margin: 10px;
+                overflow: hidden;
+                transition-duration: 2s;
+                font-size: medium;
+                font-weight: 500;
+            }
+
+            .join-us {
+                box-shadow: 1px 2px 4px 1px rgb(0, 0, 0);
+                border-radius: 6px;
+                background-color: rgb(245, 150, 87);
+                height: 200px;
+                width: 95%;
+                margin-top: 20px;
+                margin: 10px;
+                overflow: hidden;
+                transition-duration: 2s;
+                font-size: medium;
+                font-weight: 500;
+            }
+
+            .our-story {
+                box-shadow: 1px 2px 4px 1px rgb(0, 0, 0);
+                border-radius: 6px;
+                background-color: rgb(128, 77, 43);
+                height: 100px;
+                width: 95%;
+                margin-top: 20px;
+                margin: 10px;
+                overflow: hidden;
+                transition-duration: 2s;
+                font-size: medium;
+                font-weight: 500;
+            }
+
+            div.about-us:hover {
+                background-color: rgb(255, 255, 255);
+                box-shadow: 1px 2px 4px 1px rgb(201, 201, 201);
+                transform: scale(1.05);
+                transition-duration: 1s;
+            }
+
+            div.our-story:hover {
+                background-color: rgb(255, 255, 255);
+                box-shadow: 1px 2px 4px 1px rgb(201, 201, 201);
+                transform: scale(1.05);
+                transition-duration: 1s;
+            }
+
+            div.join-us:hover {
+                background-color: rgb(255, 255, 255);
+                box-shadow: 1px 2px 4px 1px rgb(201, 201, 201);
+                transform: scale(1.05);
+                transition-duration: 1s;
+            }
+        }
+    }
+
+    footer {
+        p {
+            color: white;
+        }
+    }
+
+}

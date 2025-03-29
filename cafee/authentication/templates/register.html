@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Sign up
+{% endblock %}
+
+{% block content %}
+<div class="register-pg">
+    <form method="post" class="reg-form">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Sign up</button>
+    </form>
+</div>
+{% endblock %}

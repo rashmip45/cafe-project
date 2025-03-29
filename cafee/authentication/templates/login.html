@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Sign in
+{% endblock %}
+
+{% block content %}
+<div class="login-pg">
+    <form method="post" class="login-form">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Sign in</button>
+    </form>
+</div>
+{% endblock %}
